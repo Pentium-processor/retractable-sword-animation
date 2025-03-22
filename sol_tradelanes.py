@@ -1,8 +1,5 @@
 import time 
 import os 
-import random 
-from colorama import Fore 
-from tqdm import tqdm 
 import sys
 def create_ascii_animation(frames,delay_time):
     for frame in frames:
@@ -11,8 +8,6 @@ def create_ascii_animation(frames,delay_time):
         time.sleep(delay_time)
         os.system('cls')
         print(frame)
-        if frame==frames[::-1]:
-            print("wewoewieowi")
 frames=['''
                       __ __ __ __ __ __ __ __ __ __ __ __ __ __ __ __ __ __ 
 ____________________/|\__\__\__\__\__\__\__\__\__\__\__\__\__\__\__\__\__\__\    
