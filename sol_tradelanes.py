@@ -61,6 +61,6 @@ ____________________/|\__\__\__\__\__\__\__\__\__\__\__\__\__\__\__\__\__\__\
 --------------------|____________________________________________________________________// 
                    \/__/__/__/__/__/__/__/__/__/__/__/__/__/__/__/__/__/__/''']
 while True:
- create_ascii_animation(frames=frames,delay_time=0.20)
+ create_ascii_animation(frames=frames,delay_time=0.1)
  if frames:
-    create_ascii_animation(frames=frames[::-1],delay_time=0.20)
+    create_ascii_animation(frames=frames[::-1],delay_time=0.1)
